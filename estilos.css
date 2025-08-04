@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: whitesmoke
+}
+
+header{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    flex-direction: row-reverse;
+    background-color: #030301;
+    padding: 20px 0;
+}
+
+header nav ul{
+    list-style: none;
+}
+
+header nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+h1,
+h2{
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+
+.banner{
+    height: 50vh;
+    background-image: url(../img/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.info span{
+    color: black;
+}
+
+.info-1 span{
+    color: #19aecb
+}
+
+#about article{
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 10px solid transparent;
+}
+
+p{
+    color: white;
+    text-align: center;
+}
+
+#about img{
+    margin: 10px 0;
+    border-radius: 50px;
+}
+
+#about article:nth-child(1){
+    background-color: #131c29;
+}
+
+#contact{
+    background-color: #030301;
+    padding: 70px 0;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: anchor-center;
+    
+}
+
+label{
+   display: block;
+   font-size: 12px;
+   margin-right: 10px;
+   margin-top: 25px;
+}
+
+input{
+    padding: 10px;
+    border: 1px solid #ed9275;
+    background: transparent;
+    margin-bottom: 10px;
+    color: white;
+}
+
+input:focus-visible{
+    outline: none;
+    border-color: white;
+}
+
+footer{
+    background-color: #121c29;
+    padding: 20px 0;
+}
